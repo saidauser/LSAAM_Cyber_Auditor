@@ -1,0 +1,24 @@
+RAPPORT D'AUDIT DU 19-02-2026 02_26_42
+==================================================
+
+CIBLE : 192.168.154.1(MAC: 00:50:56:c0:00:01) 
+  Aucun service critique détecté.
+------------------------------n
+CIBLE : 192.168.154.130(MAC: 00:0c:29:1a:95:e1) 
+  Aucun service critique détecté.
+------------------------------n
+CIBLE : 192.168.154.131(MAC: 00:0c:29:b2:ba:26) 
+ Port 21 FTP OUVERT
+    !ALERTE : FTP n'est pas chiffré (Risque d'écoute) ! 
+
+ Port 22 SSH OUVERT
+ Port 23 Telnet OUVERT
+    !ALERTE : Telnet n'est pas chiffré (Risque d'écoute) ! 
+
+ Port 80 HTTP OUVERT
+ Port 3306 MySQL OUVERT
+ Port 25 SMTP OUVERT
+------------------------------n
+CIBLE : 192.168.154.254(MAC: 00:50:56:e6:a8:98) 
+  Aucun service critique détecté.
+------------------------------n
